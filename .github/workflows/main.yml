@@ -36,9 +36,9 @@ jobs:
         run: npm install -g surge  
         
       - name: Build React App
-        run: npm run
+        run: npm start
          
         
       - name: Run Surge
-        run: surge ./build saimsexpensetrackerusingcontext.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ saimsexpensetrack.surge.sh --token ${{secrets.SURGE_TOKEN}}
         
