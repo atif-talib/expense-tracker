@@ -33,7 +33,7 @@ jobs:
             node-version: 12
       
       - name: Build React App
-        run: run yarn build
+        run: yarn build
       
       - name: Install Surge
         run: npm install -g surge  
