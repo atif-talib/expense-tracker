@@ -40,5 +40,5 @@ jobs:
          
         
       - name: Run Surge
-        run: surge ./build saimsexpensetrackerusingcontext.surge.sh --token ${{secrets.EXPENSE_TRACKER}}
+        run: surge ./build saimsexpensetrackerusingcontext.surge.sh --token ${{secrets.SURGE_TOKEN}}
         
